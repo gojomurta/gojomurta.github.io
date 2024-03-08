@@ -1,0 +1,273 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    background-color: rgb(227, 228, 228);
+    margin: 0px;
+}
+.container{
+    width: 950px;
+    height: auto;
+    margin: auto;
+    background-color: white;
+    border: 1px solid;
+    border-radius: 15px;
+}
+#ust{
+    width: 950px;
+    height: 150px;
+    background-color: white;
+    opacity: 0.95;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+#rsm1{
+    width: 120px;
+    height: auto;
+    margin-top: 15px;
+    margin-left: 25px;
+}
+#rsm2{
+    width: 300px;
+    height: auto;
+    margin-bottom: 25px;
+    margin-left: 30px;
+}
+#rsm3{
+    width: 200px;
+    height: auto;
+    margin-left: 180px;
+    margin-bottom: 25px;
+}
+.menu-con{
+    width: 950px;
+    height: 45px;
+    background-color: rgb(255, 0, 0);
+}
+.menu{
+    width: auto;
+    height: auto;
+    margin-left:20px;
+
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+li{
+    display: inline-block;
+}
+li a{
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(255, 0, 0);
+    
+    border-bottom: 0px solid; /* Burada ilk önce border 0 atayıp*/
+    transition: 0.65s; /* burada da zaman belirledim*/
+
+}
+li a:hover{
+    background-color: rgb(236, 130, 130);
+    color: black;
+    border-bottom: 3px solid; /* Mouse ile üstüne gelince belirttiğim zamanda ekrana fade şeklinde gelecek.*/
+}
+ul li ul {
+    background-color:#2c3e50;
+    display:none;
+    position:absolute;
+    width:auto;
+}
+
+ul li:hover ul{
+    display:block;
+}
+li ul li {
+    display:block; 
+}
+
+.orta-slider{
+    float:left;
+    margin:10px;
+    width: 600px;
+    height: auto;
+}
+.bglnt{
+    display: inline-block;
+    margin: 10px;
+    width: 300px;
+    height: 340px;
+    background-color: rgb(255, 0, 0);
+    border-bottom-left-radius: 40px; /* sol alt yuvarlaklaştırma*/
+}
+
+#tablo{
+    padding:15px;
+    margin-left: auto;
+    margin-right: auto;
+    color:white;
+    font-weight: bold;
+}
+#tablo2{
+    padding:15px;
+    padding-top:25px;
+    margin-right: auto;
+    margin-left: auto;
+    font-weight: bold;
+    color: rgb(173, 173, 173);
+}
+#tablo2 tr td{
+    border: 0;
+}
+#tablo3{
+    padding:15px;
+    padding-top:25px;
+    margin-right: auto;
+    margin-left: auto;
+    font-weight: bold;
+    color: rgb(173, 173, 173);
+}
+#tablo4{
+    padding:15px;
+    padding-top:25px;
+    margin-right: auto;
+    margin-left: auto;
+    font-weight: bold;
+    color: rgb(37, 37, 37);
+}
+#btn1{
+    width: 910px;
+    border-radius: 10px;
+    float: left;
+}
+#btn1 p{
+    color: rgb(224, 13, 13);
+}
+#btn2{
+    width: 220px;
+    border-radius: 10px;
+    float: left;
+    margin-left:10px;
+}
+#btn2 p{
+    color:rgb(255, 0, 0);
+}
+
+tr td{
+    border-bottom: 1px solid;
+    padding-bottom:8px;
+}
+
+h1, h2{
+    margin-bottom: 0;
+    margin-top: 1px;
+    color: white;
+}
+
+#lnk{
+    text-decoration: none;
+    color: white;
+    transition: 0.6s;
+}
+#lnk:hover{
+    color:black;
+}
+#lnk2{
+    text-decoration: none;
+    color: gray;
+    transition: 0.6s;
+}
+#lnk2:hover{
+    color:black;
+}
+.orta{
+    width: 950px;
+    height: 300px;
+}
+.ort-sol{
+    width: 310px;
+    height: 300px;
+    float: left;
+    margin-left: 5px;
+    margin-top:10px;
+    text-align: center;
+    
+}
+.ort{
+    width: 310px;
+    height: 300px;
+    float: left;
+    margin-left: 5px;
+    margin-top:10px;
+    text-align: center;
+    
+}
+.ort-sag{
+    width: 310px;
+    height: 300px;
+    float: left; 
+    margin-left: 5px;   
+    margin-top:10px;
+    text-align: center;
+}
+#ust2{
+    width: 310px;
+    height: 45px;
+    border-bottom-right-radius: 30px;
+    background-color: crimson;
+    padding-top:15px;
+}
+#ust3{
+    width: 310px;
+    height: 45px;
+    border-bottom-right-radius: 30px;
+    background-color: rgb(220, 110, 20);
+    padding-top:15px;
+}
+#ust4{
+    width: 310px;
+    height: 45px;
+    border-bottom-right-radius: 30px;
+    background-color: crimson;
+    padding-top:15px;
+}
+.orta2{
+    width: 950px;
+    height: auto;
+}
+.orta3{
+    width: 750px;
+    height: auto;
+    
+}
+.footer{
+    width: 950px;
+    height: 450px;
+}
+.footer1{
+    width: 310px;
+    height: 400px;
+    margin-left: 5px;
+    float: left;
+    background-color: rgb(255, 255, 255);
+}
+.footer2{
+    width: 310px;
+    height: 400px;
+    margin-left: 5px;
+    float: left;
+    background-color: rgb(255, 255, 255);
+}
+.footer3{
+    width: 310px;
+    height: 400px;
+    margin-left: 5px;
+    float: left;
+    background-color: rgb(255, 255, 255);
+}
+.alt{
+    width: 950px;
+    height:60px;
+}
